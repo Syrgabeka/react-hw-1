@@ -8,9 +8,9 @@ function Book(title, author, year) {
   };
 }
 
-var book1 = new Book("Война и мир", "Лев Толстой", 1869);
-var book2 = new Book("Преступление и наказание", "Федор Достоевский", 1866);
-var book3 = new Book("1984", "Джордж Оруэлл", 1949);
+let book1 = new Book("Война и мир", "Лев Толстой", 1869);
+let book2 = new Book("Преступление и наказание", "Федор Достоевский", 1866);
+let book3 = new Book("1984", "Джордж Оруэлл", 1949);
 
 console.log(book1.getSummary());
 console.log(book2.getSummary());
@@ -26,8 +26,8 @@ function Student(name, grade) {
   };
 }
 
-var student1 = new Student("Иван", 5);
-var student2 = new Student("Мария", 8);
+let student1 = new Student("Иван", 5);
+let student2 = new Student("Мария", 8);
 
 student1.study();
 student2.study();
